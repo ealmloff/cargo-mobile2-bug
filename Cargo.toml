@@ -1,0 +1,41 @@
+[package]
+name = "dioxus-mobile-test"
+version = "0.1.0"
+authors = ["Evan Almloff <evanalmloff@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "dioxus-mobile-test-desktop"
+path = "gen/bin/desktop.rs"
+
+[package.metadata.cargo-android]
+app-activity-name = "com.example.dioxus_mobile_test.MainActivity"
+app-dependencies = [
+    "androidx.webkit:webkit:1.6.1",
+    "androidx.appcompat:appcompat:1.6.1",
+    "com.google.android.material:material:1.8.0",
+]
+project-dependencies = [ "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21" ]
+app-plugins = [ "org.jetbrains.kotlin.android" ]
+app-permissions = [ "android.permission.INTERNET" ]
+app-theme-parent = "Theme.MaterialComponents.DayNight.DarkActionBar"
+vulkan-validation = false
+
+[package.metadata.cargo-android.env-vars]
+WRY_ANDROID_PACKAGE = "com.example.dioxus_mobile_test"
+WRY_ANDROID_LIBRARY = "dioxus_mobile_test"
+WRY_ANDROID_KOTLIN_FILES_OUT_DIR = "<android-project-dir>/app/src/main/kotlin/com/example/dioxus_mobile_test"
+
+[dependencies]
+anyhow = "1.0.56"
+log = "0.4.11"
+tao = { version = "0.25", features = ["rwh_06"], default-features = false }
+wry = { git = "https://github.com/tauri-apps/wry", default-features = false }
+
+[target.'cfg(target_os = "android")'.dependencies]
+android_logger = "0.9.0"
+jni = "0.19.0"
+paste = "1.0"

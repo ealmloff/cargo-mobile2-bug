@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CCCB86046D52462B9F64CFB /* libdioxus_mobile_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAFFB370F42E4261F065A9A /* libdioxus_mobile_test.a */; };
+		5332593B99258DB16EFA6E86 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F16D4DA47723ACA67FCAC00 /* QuartzCore.framework */; };
+		78D62E3FF2E84DF2E04399B9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451CB9D7E9D27578C79ADF42 /* Security.framework */; };
+		9E6282363DD4B43F9426E12E /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 29CC152FF66FD09779D39132 /* assets */; };
+		A7428032C21A853A2E84C73E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE63227D0662DE78FC1E2B54 /* main.mm */; };
+		B2EEE4DE8F543CCC2708DAA2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2C045949B82DD393A9C542 /* WebKit.framework */; };
+		C13066D697EFE15FE39E3790 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5D87B6999545AA302857F2 /* MetalKit.framework */; };
+		DD150E751DF952121C4D55AB /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0822990437A8EC0B6BB9D3B1 /* Metal.framework */; };
+		E8A23D9ACC41848C19B394DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AA34C311B673DDF535E5A7 /* CoreGraphics.framework */; };
+		EC9566EE1C938DC94E53D1BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFDFAF79F007B869B602382 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02AA34C311B673DDF535E5A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0822990437A8EC0B6BB9D3B1 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		29CC152FF66FD09779D39132 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
+		4001120971850A31D2F44E72 /* lib.rs */ = {isa = PBXFileReference; path = lib.rs; sourceTree = "<group>"; };
+		451CB9D7E9D27578C79ADF42 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4F16D4DA47723ACA67FCAC00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6D2C045949B82DD393A9C542 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A07B4B2C5B25451C2DAEEFE8 /* dioxus-mobile-test_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "dioxus-mobile-test_iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CEC209BE14DC187489385E /* bindings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
+		BFAFFB370F42E4261F065A9A /* libdioxus_mobile_test.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdioxus_mobile_test.a; sourceTree = "<group>"; };
+		CC5D87B6999545AA302857F2 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		FBFDFAF79F007B869B602382 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE63227D0662DE78FC1E2B54 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F085DC537725AA01739196E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCCB86046D52462B9F64CFB /* libdioxus_mobile_test.a in Frameworks */,
+				E8A23D9ACC41848C19B394DB /* CoreGraphics.framework in Frameworks */,
+				DD150E751DF952121C4D55AB /* Metal.framework in Frameworks */,
+				C13066D697EFE15FE39E3790 /* MetalKit.framework in Frameworks */,
+				5332593B99258DB16EFA6E86 /* QuartzCore.framework in Frameworks */,
+				78D62E3FF2E84DF2E04399B9 /* Security.framework in Frameworks */,
+				EC9566EE1C938DC94E53D1BB /* UIKit.framework in Frameworks */,
+				B2EEE4DE8F543CCC2708DAA2 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE2AD3A7FEBC2AE5D272FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AA34C311B673DDF535E5A7 /* CoreGraphics.framework */,
+				BFAFFB370F42E4261F065A9A /* libdioxus_mobile_test.a */,
+				0822990437A8EC0B6BB9D3B1 /* Metal.framework */,
+				CC5D87B6999545AA302857F2 /* MetalKit.framework */,
+				4F16D4DA47723ACA67FCAC00 /* QuartzCore.framework */,
+				451CB9D7E9D27578C79ADF42 /* Security.framework */,
+				FBFDFAF79F007B869B602382 /* UIKit.framework */,
+				6D2C045949B82DD393A9C542 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32FD80566E4ED8B16E2479E3 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				B7CEC209BE14DC187489385E /* bindings.h */,
+			);
+			path = bindings;
+			sourceTree = "<group>";
+		};
+		716D2CB2987D5813D9322880 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FD9D5B27DD2E5C45422BE119 /* dioxus-mobile-test */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7A34DD36587A98B5FA846D81 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4001120971850A31D2F44E72 /* lib.rs */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		8E85997C798D52601FE1D3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07B4B2C5B25451C2DAEEFE8 /* dioxus-mobile-test_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5D85DD1A8E130F72087023 = {
+			isa = PBXGroup;
+			children = (
+				29CC152FF66FD09779D39132 /* assets */,
+				716D2CB2987D5813D9322880 /* Sources */,
+				7A34DD36587A98B5FA846D81 /* src */,
+				0CE2AD3A7FEBC2AE5D272FE8 /* Frameworks */,
+				8E85997C798D52601FE1D3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD9D5B27DD2E5C45422BE119 /* dioxus-mobile-test */ = {
+			isa = PBXGroup;
+			children = (
+				FE63227D0662DE78FC1E2B54 /* main.mm */,
+				32FD80566E4ED8B16E2479E3 /* bindings */,
+			);
+			path = "dioxus-mobile-test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07441CE21C696C0D07381B51 /* dioxus-mobile-test_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EE00765ABFC117379B97E9 /* Build configuration list for PBXNativeTarget "dioxus-mobile-test_iOS" */;
+			buildPhases = (
+				32F1EA9AADD14EA731EE55B1 /* Build Rust Code */,
+				A463312ABE56D8A4179FE4C5 /* Sources */,
+				190119DBA326BBAAC5DACEE8 /* Resources */,
+				F085DC537725AA01739196E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dioxus-mobile-test_iOS";
+			productName = "dioxus-mobile-test_iOS";
+			productReference = A07B4B2C5B25451C2DAEEFE8 /* dioxus-mobile-test_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60942472A9EFBBB71691C05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = D2FEE891A1EAFF107333C087 /* Build configuration list for PBXProject "dioxus-mobile-test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB5D85DD1A8E130F72087023;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07441CE21C696C0D07381B51 /* dioxus-mobile-test_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190119DBA326BBAAC5DACEE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6282363DD4B43F9426E12E /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F1EA9AADD14EA731EE55B1 /* Build Rust Code */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Rust Code";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/target/aarch64-apple-ios/${CONFIGURATION}/deps/libdioxus_mobile_test.a",
+				"$(SRCROOT)/target/x86_64-apple-ios/${CONFIGURATION}/deps/libdioxus_mobile_test.a",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "CARGO_APPLE=`which cargo-apple`\n${CARGO_APPLE} xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:?}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?} ${FEATURES}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A463312ABE56D8A4179FE4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7428032C21A853A2E84C73E /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		240023E38EDDE0B7EBB05CCF /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = debug;
+		};
+		316018472E1F698AC871A675 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = "dioxus-mobile-test_iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(inherited) $(PROJECT_DIR)/Sources/aarch64-apple-ios/$(CONFIGURATION)";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(inherited) \"/Users/evanalmloff/Desktop/dioxus-mobile-test/target/aarch64-apple-ios-sim/$(CONFIGURATION)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dioxus-mobile-test";
+				PRODUCT_NAME = "Dioxus Mobile Test";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = release;
+		};
+		99AB34449A7C7FA7D898AC85 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = "dioxus-mobile-test_iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$(inherited) $(PROJECT_DIR)/Sources/aarch64-apple-ios/$(CONFIGURATION)";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(inherited) \"/Users/evanalmloff/Desktop/dioxus-mobile-test/target/aarch64-apple-ios-sim/$(CONFIGURATION)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dioxus-mobile-test";
+				PRODUCT_NAME = "Dioxus Mobile Test";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = debug;
+		};
+		A2B4B40026AE87188CDD1692 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98EE00765ABFC117379B97E9 /* Build configuration list for PBXNativeTarget "dioxus-mobile-test_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AB34449A7C7FA7D898AC85 /* debug */,
+				316018472E1F698AC871A675 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		D2FEE891A1EAFF107333C087 /* Build configuration list for PBXProject "dioxus-mobile-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240023E38EDDE0B7EBB05CCF /* debug */,
+				A2B4B40026AE87188CDD1692 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60942472A9EFBBB71691C05D /* Project object */;
+}

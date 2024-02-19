@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+
+target 'dioxus-mobile-test_iOS' do
+platform :ios, '13.0'
+  
+
+  # Pods for dioxus-mobile-test_iOS
+  
+end
+
+target 'dioxus-mobile-test_macOS' do
+platform :osx, '11.0'
+  
+
+  # Pods for dioxus-mobile-test_macOS
+  
+end
